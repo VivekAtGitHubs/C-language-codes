@@ -5,7 +5,6 @@ struct employee
     char name[50];
     float salary;
 };
-
 int main()
 {
     struct employee a[10];
@@ -22,7 +21,6 @@ int main()
         printf("Enter salary: ");
         scanf("%f", &a[i].salary);
     }
-
     printf("\nEnter employee code to search: ");
     scanf("%d", &key);
 
@@ -35,7 +33,6 @@ int main()
             break;
         }
     }
-
     if(flag == 1)
     {
         printf("\nCode = %d", a[pos].code);

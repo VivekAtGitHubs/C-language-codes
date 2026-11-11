@@ -9,5 +9,6 @@ printf ("\n subtraction=%d ",a-b);
 printf ("\n multiplication=%d",a*b);
 printf ("\n division=%d",a/b);
 printf ("\n modulus =%d",a%b);
+printf("\n floor division=%d",a/b);
 return 0;
 }

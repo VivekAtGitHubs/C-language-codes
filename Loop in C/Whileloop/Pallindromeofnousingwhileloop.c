@@ -11,8 +11,8 @@ int main()
         i=i/10;
     }
     if (rev==x)
-    printf("pallindrome");
+    printf(" not  pallindrome");
     else
-    printf(" not pallindrome");
+    printf("  pallindrome");
      return 0;
 }
