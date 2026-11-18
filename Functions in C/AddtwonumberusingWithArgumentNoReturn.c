@@ -11,7 +11,6 @@ int main() {
     add(a, b);
     return 0;
 }
-
 // Function definition
 void add(int a, int b) {
     int sum;

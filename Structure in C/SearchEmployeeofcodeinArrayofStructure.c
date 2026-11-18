@@ -14,16 +14,13 @@ int main()
     {
         printf("\nEnter code: ");
         scanf("%d", &a[i].code);
-
         printf("Enter name: ");
         scanf(" %[^\n]%*c", a[i].name);  // Reads full name with spaces
-
         printf("Enter salary: ");
         scanf("%f", &a[i].salary);
     }
     printf("\nEnter employee code to search: ");
     scanf("%d", &key);
-
     for(i = 0; i < 10; i++)
     {
         if(a[i].code == key)
